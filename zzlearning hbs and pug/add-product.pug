@@ -1,0 +1,28 @@
+extends layout/main-page.pug
+
+
+block styles
+    link(rel="stylesheet" href="../public/css/add-product.css")
+
+block content
+    body 
+        header.main-header 
+            nav.main-header__nav 
+                ul.main-header__item-list 
+                    li.main-header__item 
+                        a(href="/") Home 
+                    li.main-header__item 
+                        a(href="/admin/add-product") Add Products 
+    main 
+           
+        form.product-form(method="POST", action="/admin/add-product")
+                div.form-control
+                   label(for="title") Product Name 
+                   input(type="text", name="title")
+                   button(type="submit") Add Product
+
+
+  
+
+
+

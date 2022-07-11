@@ -1,0 +1,8 @@
+CORE MODULES
+
+
+http ----> Launch a server and send requests
+https ---> Launch an encoded SSL Server  ie all the data which is transfered are encrypted  ssl->secure socket layer
+fs 
+path
+os
